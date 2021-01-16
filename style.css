@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap');
+body {
+		text-decoration: none;
+		background-image: url(something2.gif);
+		cursor: url(https://downloads.totallyfreecursors.com/cursor_files/rainbow-ani.ani), url(https://downloads.totallyfreecursors.com/thumbnails/rainbow-ani3.gif), auto;
+    text-align: center;
+    font-family: 'Lexend Peta', sans-serif;
+	}
+
+	body:hover {
+		cursor: url(https://downloads.totallyfreecursors.com/cursor_files/rainbow-ani.ani), url(https://downloads.totallyfreecursors.com/thumbnails/rainbow-ani3.gif), auto;
+	}
+
+	a:hover {
+    text-decoration: none;
+		cursor: url(https://downloads.totallyfreecursors.com/cursor_files/rainbow-ani.ani), url(https://downloads.totallyfreecursors.com/thumbnails/rainbow-ani3.gif), auto;
+	}
+
+	a {
+    text-decoration: none;
+		cursor: url(https://downloads.totallyfreecursors.com/cursor_files/rainbow-ani.ani), url(https://downloads.totallyfreecursors.com/thumbnails/rainbow-ani3.gif), auto;
+	}
+.buyNOW{
+  position: absolute;
+  float: left;
+}
+.buyNOW img{
+  position: relative;
+}
+marquee{
+  position: sticky;
+}
+.content{
+  position: relative;
+  background-color: black;
+  align-content: center;
+  color: red;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+table {
+  font-family: 'Lexend Peta', sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid red;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: red;
+  color: black;
+}
+button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  animation: blinker 0.1s linear infinite, jitter 0.1s linear infinite;
+}
+button:hover{
+  animation: spin 0.1s linear infinite, blinker 0.1s linear infinite;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(350deg);
+  }
+}
+@keyframes jitter {
+  0%{
+    transform: translate(-150px, 0);
+  }
+  
+  100% {
+    transform: translate(150px, 0);
+
+  }
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
